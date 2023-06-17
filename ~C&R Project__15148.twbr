@@ -2491,6 +2491,11 @@ Davidson County, TN </run>
               <text column='[federated.1prufvg1nc9p9j1bpd0ba0rm4g04].[cnt:Victim County Resident:qk]' />
             </encodings>
             <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='12' />
+              </style-rule>
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
@@ -3333,7 +3338,7 @@ Top Zip Codes In Davidson County, TN</run>
       <active id='-1' />
       <simple-id uuid='{34378897-5A68-48EE-B55D-948A96882F59}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Crime-Years'>
           <zoom type='entire-view' />
@@ -3464,7 +3469,7 @@ Top Zip Codes In Davidson County, TN</run>
       </cards>
       <simple-id uuid='{982B1DC0-8E3C-4DB1-ADFE-CFE4C047A5AA}' />
     </window>
-    <window class='worksheet' maximized='true' name='Total Count of Criminal Incidents'>
+    <window class='worksheet' name='Total Count of Criminal Incidents'>
       <cards>
         <edge name='left'>
           <strip size='160'>
